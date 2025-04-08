@@ -26,6 +26,7 @@ turtle.pendown()
 # Shape Drawing
 shape = 3
 while shape <= 10:
+    turtle.pensize(5)
     shape_degrees = 360 / shape
     # random_color = random.choice(colors)
     # turtle.color(random_color)
@@ -40,22 +41,27 @@ turtle.penup()
 turtle.goto(-250, 0)  # Move further left and slightly down
 turtle.pendown()
 
-for a in range(100):
-    random_direction = random.randint(1, 3)
+directions = [0,90,180,270]
+turtle.pensize(8)
+
+for a in range(120):
     # random_color = random.choice(colors)
     # turtle.color(random_color)
     random_color()
-    turtle.pensize(8)
+    turtle.forward(25)
+    turtle.setheading(random.choice(directions))
 
-    if random_direction == 1:
-        turtle.right(90)
-    elif random_direction == 2:
-        turtle.left(90)
-    else:
-        turtle.forward(25)
+# Spirograph
+turtle.setheading(0)
+turtle.pensize(1)
 
+turtle.penup()
+turtle.goto(0, 0)  # Move further left and slightly down
+turtle.pendown()
 
-
-
+for angle in range(0,60):
+    random_color()
+    turtle.left(6)
+    turtle.circle(70)
 
 screen.exitonclick()
