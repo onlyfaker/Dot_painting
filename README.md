@@ -2,7 +2,7 @@
 
 A creative Python program that uses the Turtle graphics module to generate various artistic patterns, including geometric shapes, random walks, spirographs, and a dot painting inspired by color extraction.
 
-![Turtle Art Example](https://github.com/onlyfaker/Dot_painting/blob/master/painting.jpg)
+![Turtle Art Example](https://blog.artsper.com/en/a-closer-look/art-movements-en/pointillism-artists-dotted-art/)
 
 ## 🎨 Overview
 
