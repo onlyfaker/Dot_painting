@@ -1,8 +1,7 @@
 # Turtle Art Generator
 
 A creative Python program that uses the Turtle graphics module to generate various artistic patterns, including geometric shapes, random walks, spirographs, and a dot painting inspired by color extraction.
-
-![Turtle Art Example](https://blog.artsper.com/en/a-closer-look/art-movements-en/pointillism-artists-dotted-art/)
+![dotsPainting](https://github.com/user-attachments/assets/22567bd1-f8eb-48a0-b1ba-b679ec6ce90e)
 
 ## 🎨 Overview
 
